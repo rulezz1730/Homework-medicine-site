@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.landing-head {
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+}
+
+.header__contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-items: flex-start;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.header__contact-item {
+    padding: 15px 0 15px 60px;
+}
+
+.header__logo {
+    display: block;
+}
+
+.header__work-time {
+    background: url(../img/clock.png) no-repeat left center;
+}
+
+.header__mail-us {
+    background: url(../img/Mail.png) no-repeat left center;
+}
+
+.header__call-us {
+    background: url(../img/Call.png) no-repeat left center;
+}
+
+.header__nav a {
+    text-decoration: none;
+}
