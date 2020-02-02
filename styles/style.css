@@ -23,6 +23,16 @@ header {
     justify-items: flex-start;
     align-items: center;
     padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #6a6a6a;
+}
+
+.header__contact_headline-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    color: #6a6a6a;
 }
 
 .header__contact-item {
@@ -45,6 +55,179 @@ header {
     background: url(../img/Call.png) no-repeat left center;
 }
 
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header__nav a {
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 30px;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #898989;
+}
+
+.header__nav a:active {
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.header__social i {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.header__social {
+    padding-right: 100px;
+}
+
+main {}
+
+.first-section {
+    background: url(../img/Layer\ 10.png) no-repeat center center;
+}
+
+.first-section__main {
+    margin: 0 auto;
+}
+
+.first-section__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.first-section__description h2 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #474747;
+}
+
+.first-section__description p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #616161;
+}
+
+.first-section__button {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #1a9bdc;
+    color: white;
+}
+
+.second-section {
+    background: linear-gradient(to right, #43b1d2 0%, #37c3a8 100%);
+    color: white;
+}
+
+.second-section__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+}
+
+.second-section__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.second-section__item img {
+    padding-top: 50px;
+}
+
+.second-section__item h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.second-section__item p {
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.third-section__container {
+    margin: 0 auto;
+}
+
+.third-section__heading h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #474747;
+}
+
+.third-section__heading p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #616161;
+}
+
+.third-section__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.third-section__main_left,
+.third-section__main_right {
+    padding: 25px 0;
+}
+
+.third-section__item_left-top {
+    background: url(../img/medical-item.png) no-repeat left center;
+}
+
+.third-section__item_left-bottom {
+    background: url(../img/ocular.png) no-repeat left center;
+}
+
+.third-section__item h3 {
+    padding-left: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    line-height: 80px;
+    color: #616161;
+}
+
+.third-section__item p {
+    text-align: left;
+    padding-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #616161;
 }
