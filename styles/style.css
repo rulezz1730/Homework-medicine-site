@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -580,4 +581,104 @@ header {
 
 .footer {
     background-color: #171717;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    margin: 0 auto;
+    padding: 40px;
+    font-size: 16px;
+    color: #8d8d8d;
+}
+
+.footer__headline {
+    font-size: 22px;
+    color: white;
+}
+
+.footer__contacts {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.footer__mail {
+    background: url(../img/footer-mail.png) no-repeat center left;
+    margin-top: 40px;
+    padding-left: 55px;
+}
+
+.footer__phone {
+    background: url(../img/footer-phone.png) no-repeat center left;
+    margin-top: 40px;
+    padding-left: 55px;
+}
+
+.footer__map {
+    background: url(../img/footer-map.png) no-repeat center left;
+    margin-top: 40px;
+    padding-left: 55px;
+}
+
+.footer__social {
+    margin-top: 40px;
+}
+
+.footer__social a {
+    padding: 5px;
+    color: white;
+}
+
+.footer__links a,
+.footer__services a {
+    background: url(../img/arrow.png) no-repeat center left;
+    margin-top: 20px;
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #8d8d8d;
+    display: block;
+}
+
+.footer__services a:nth-child(2),
+.footer__links a:nth-child(2) {
+    margin-top: 40px;
+}
+
+form {
+    font-size: 25px;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 40px;
+    color: #8d8d8d;
+    background-color: #171717;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.footer__submit {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 25px;
+    color: white;
+    background-color: #0087be;
+}
+
+.copy {
+    text-align: center;
+    padding: 40px;
+    background-color: #1a1a1a;
+    font-size: 13px;
+    color: #584e4e;
 }
